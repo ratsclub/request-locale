@@ -1,0 +1,21 @@
+{
+	"name": "request-locale",
+	"version": "1.0.0",
+	"description": "",
+	"license": "MIT",
+	"author": "Victor Freire <victor@freire.dev.br>",
+	"type": "module",
+	"scripts": {
+		"test": "node --experimental-test-coverage --import tsx --test",
+		"lint:check": "biome check",
+		"lint": "biome check --write"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.4.4",
+		"tsx": "^4.21.0",
+		"typescript": "^5.9.3"
+	},
+	"dependencies": {
+		"@types/node": "^25.3.0"
+	}
+}
